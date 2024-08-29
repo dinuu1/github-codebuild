@@ -10,7 +10,7 @@ phases:
       - pip install requests -t .
   post_build:
     commands:
-      - echo Build completed on `date`
+      - echo Build1 completed on `date`
       - pwd
       - ls -al
 artifacts:
